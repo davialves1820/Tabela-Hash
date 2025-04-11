@@ -20,7 +20,15 @@ def main():
     else:
         print(f"Aluno encontrado: {n}")
     
+    print()
 
+    n = "Daniel"
+    print(f"Buscando aluno {n}")
+    n = h.busca(n)
+    if n == None:
+        print("Aluno não encontrado!")
+    else:
+        print(f"Aluno encontrado: {n}")
 
 # Executa a função main
 main()
